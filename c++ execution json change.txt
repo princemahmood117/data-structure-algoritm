@@ -1,0 +1,4 @@
+"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+
+// replace the above code with this code in setting > executorMap 
+"cpp": "g++ \"$fileName\" -o \"$fileNameWithoutExt\" && ./$fileNameWithoutExt",

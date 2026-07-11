@@ -1,0 +1,8 @@
+data structure : way of arranging data into main memeory.
+
+types : 1. array
+	2. linked list
+	3. stack
+	4. queue
+	5. graphs
+	6. binary search tree
