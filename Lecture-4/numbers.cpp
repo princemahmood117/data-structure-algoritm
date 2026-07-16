@@ -16,7 +16,8 @@ int main() {
     for(int i = 0; i < n; i++) {
 
         for(int j = 0; j < n; j++) {
-            cout << num;
+            cout << num << " "; 
+            // print 'num' and increase by 1 and print again untill the loop ends
             num++;
         }
 
@@ -47,7 +48,7 @@ int main() {
 
 //     for(int i = 1; i < n; i++) {
 
-//         for(int j = 1; j < n; j++) {
+//         for(int j = 1; j < n; j++) {   // value of row will be printed in column
 //             cout << i;
             
 //         }
@@ -78,13 +79,14 @@ int main() {
 //     123
 //     123
 //     123
+//     123
 //     */
 
 //     int n = 4;
 
 //     for(int i = 1; i < n; i++) {
 
-//         for(int j = 1; j < n; j++) {
+//         for(int j = 1; j < n; j++) {   // j will be increased ann the value of j will be printed
 //             cout << j;
             
 //         }
