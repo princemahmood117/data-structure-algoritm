@@ -1,0 +1,3 @@
+outer loop = row
+
+inner loop = column
