@@ -23,7 +23,6 @@ int kadaneAlgo(int arr[], int n){
 // {3, 4, 0, 6, -5, 9};
 // i=0 => cs=0+3=3, max=3; i=1==> cs=3+4=7, max=7; i=2 ==> cs=0+7=7, max=7; i=3==> cs=7+6=13, max=13; i=4==> cs=13+(-5)=8, max=13; i=5==> cs=8+9=17, max=17;
 
-
     return maxSum;
 };
 
