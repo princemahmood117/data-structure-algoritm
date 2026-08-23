@@ -2,14 +2,12 @@
 #include <vector>
 using namespace std;
 
-vector<int> majEle(vector<int> arr) {
-
-    int n = arr.size();
+int majorElement(vector<int> arr) {
+    
     for (int val : arr) {
-        int count = 0;
-        cout << val << " | ";
-        for (int element : arr) {
-            cout << element;
+        int count = 0;  
+
+        for (int element : arr) {            
             if(element == val) {
                 count++;
             }
@@ -22,7 +20,8 @@ vector<int> majEle(vector<int> arr) {
 int main() {
 
     vector <int> arr = {1, 2, 1, 1, 2};
-    vector<int> result = majEle(arr);
+    int result = majorElement(arr);
 
+    cout << result;
     return 0;
 }
