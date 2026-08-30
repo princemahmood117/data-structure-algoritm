@@ -1,0 +1,17 @@
+Time Complexity : how the running time of an algorithm increases as the size of input N grows
+
+                                            ------------ BEST to WORST ------------
+
+->  O(1)  = constant  --  [whether the element is 10 or 10 million, we only access one element]
+
+->  O(log n)  = Logarithmic -- [the input is repeatedly divided into smaller pieces, specially by 2] = Binary Search
+
+->  O(n)  = Linear -- The number of operations grows with the input N = Linear Search
+
+->  O(n log n)  = Linearithmic  -- we have roughly N works combined with 'log n' steps = Merge Sort, Heap Sort
+
+->  O(n^2)  = Quadratic -- happens when we have nested loops, each going through N elements == Bubble Sort, Selection Sort
+
+->  O(2^n)  = Exponential -- the amount of work doubles as N increases by 1  = Recursion
+
+->  O(n!)  = Factorial -- generating of permutation of all N items
