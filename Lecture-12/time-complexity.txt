@@ -1,6 +1,6 @@
 Time Complexity : how the running time of an algorithm increases as the size of input N grows
 
-                                            ------------ BEST to WORST ------------
+                ------------ BEST to WORST ------------
 
 ->  O(1)  = constant  --  [whether the element is 10 or 10 million, we only access one element]
 
@@ -15,3 +15,6 @@ Time Complexity : how the running time of an algorithm increases as the size of 
 ->  O(2^n)  = Exponential -- the amount of work doubles as N increases by 1  = Recursion
 
 ->  O(n!)  = Factorial -- generating of permutation of all N items
+
+
+................
