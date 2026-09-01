@@ -20,4 +20,4 @@ Time Complexity : how the running time of an algorithm increases as the size of 
 ................
 
 
-Space complexity
+Space complexity : total space increases as the input N grows
