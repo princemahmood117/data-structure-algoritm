@@ -21,3 +21,5 @@ Time Complexity : how the running time of an algorithm increases as the size of 
 
 
 Space complexity : total space increases as the input N grows
+
+ -> O(1) space complexity: constant space complexity -- [uses a fixed amount of extra memory that does not change regardless of how large the input data becomes]
