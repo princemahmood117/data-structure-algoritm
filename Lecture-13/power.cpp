@@ -22,7 +22,7 @@ double myPower(double x, int n)
         }
 
         x = x * x;
-        binaryForm = binaryForm / 2;
+        binaryForm = binaryForm / 2;  // divides by 2 to pick the previous digit 
     }
 
     return ans;
