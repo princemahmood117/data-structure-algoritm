@@ -8,3 +8,5 @@ types : 1. array
 	6. binary search tree
 
 testing
+
+this is the array manipulation
